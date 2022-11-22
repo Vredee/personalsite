@@ -1,0 +1,557 @@
+@font-face {
+  font-family: "Orbitron";
+  src: url("Orbitron-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url("DancingScript-Regular.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 0 */
+.box0 {
+  text-align: center;
+  background-color: #817a88;
+  height: 800px;
+  position: relative;
+  display: block;
+}
+
+.h0 {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  top: 22%;
+  font-family: "DancingScript";
+  font-size: 3rem;
+  font-style: normal;
+  color: #dbdddc;
+}
+
+.h1 {
+  margin: 0;
+  display: block;
+  position: relative;
+  top: 33%;
+  font-family: "Orbitron";
+  font-size: 1rem;
+  color: #dbdddc;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ Imageframe configuration */
+.box0_1 {
+  /* Hexagon */
+  height: 20%;
+  width: 10%;
+  position: absolute;
+  bottom: 15%;
+  left: 80%;
+}
+
+.box0_2 {
+  /* PAINTER */
+  height: 20%;
+  width: 10%;
+  position: absolute;
+  bottom: 60%;
+  left: 70%;
+}
+
+.box0_3 {
+  /* GEARS */
+  height: 20%;
+  width: 10%;
+  position: absolute;
+  bottom: 60%;
+  left: 20%;
+}
+
+.box0_4 {
+  /* Database*/
+  height: 30%;
+  width: 10%;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.box0_5 {
+  /* Sea */
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ Image configuration */
+.mountain {
+  height: 100%;
+  width: 100%;
+}
+
+.database {
+  height: 80%;
+  width: 80%;
+}
+
+.gears {
+  height: 90%;
+  width: 90%;
+}
+
+.painter {
+  height: 80%;
+  width: 80%;
+}
+
+.hexagon {
+  height: 90%;
+  width: 90%;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++HR1    */
+.hr1 {
+  margin: 0;
+  padding: 0;
+  color: #43637e;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 1   */
+.box1 {
+  background-color: #ca8779;
+  height: 1800px;
+  position: relative;
+  display: block;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++ BOX 1.1 About me & Skills  */
+.box1_1 {
+  text-align: center;
+  height: auto;
+  position: absolute;
+  display: block;
+  top: 10%;
+  left: 20%;
+}
+
+.h2 {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  top: 22%;
+  font-family: "DancingScript";
+  font-size: 3rem;
+  font-style: normal;
+  color: #dbdddc;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++ BOX 1.2 Webdevelopment & Design*/
+.box1_2 {
+  height: 450px;
+  width: 1200px;
+  ;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  top: 25%;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++ Image : BOX 1.2 : CodeLaptop  */
+.box1_2_1 {
+  display: inline-block;
+  position: absolute;
+  height: 80%;
+  width: 40%;
+  margin: 0;
+}
+
+.codelap {
+  height: 100%;
+  width: 100%;
+}
+
+/*+++++++++++++++++++++++++++++++ Text : BOX 1.2.1 : Header & Description ++  */
+.box1_2_2 {
+  display: inline-block;
+  position: absolute;
+  height: 80%;
+  width: 55%;
+  right: 1%;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dbdddc;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++ Text : BOX 1.2.1 : Header */
+.box1_2_2_1 {
+  text-align: left;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 5px;
+  font-family: "Orbitron";
+  font-size: 1.5rem;
+  color: #1b3557;
+}
+
+.header1_2_2_1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++ Text : BOX 1.2.2 : Description */
+.box1_2_2_2 {
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 10px;
+  font-family: "Orbitron";
+  font-size: 1rem;
+  color: #43637e;
+  line-height: 2;
+}
+
+.description1_2_2_2 {
+  height: 100%;
+  width: 100%;
+}
+
+/* +++++++++++++++++++++++++++++++ HR 2 ++++++++++++++++++++++++++++++++++++++*/
+.hr2 {
+  position: relative;
+  display: block;
+  top: 30%;
+  border: dotted;
+  background-color: #ca8779;
+  padding: 0px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 0 auto;
+  width: 10%;
+  border-bottom-width: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 1.3 : Private  */
+.box1_3 {
+  height: 390px;
+  width: 1200px;
+  position: relative;
+  top: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++ Image : BOX 1.3 : Yoga +++++  */
+.box1_3_1 {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  height: 80%;
+  width: 40%;
+  margin: 0;
+}
+
+.yoga {
+  height: 100%;
+  width: 100%;
+}
+
+/*+++++++++++++++++++++++++++++++ Text : BOX 1.3.1 : Header & Description ++  */
+.box1_3_2 {
+  display: inline-block;
+  position: absolute;
+  height: 80%;
+  width: 55%;
+  left: 1%;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dbdddc;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++ Text : BOX 1.3.1.1 : Header */
+.box1_3_2_1 {
+  text-align: right;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 5px;
+  font-family: "Orbitron";
+  font-size: 1.5rem;
+  color: #1b3557;
+}
+
+.header1_3_2_1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++ Text : BOX 1.3.1.2 : Description */
+.box_1_3_2_2 {
+  text-align: right;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 10px;
+  font-family: "Orbitron";
+  font-size: 1rem;
+  color: #43637e;
+  line-height: 2;
+}
+
+.description1_3_2_2 {
+  height: 100%;
+  width: 100%;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   HR3    */
+.hr3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #43637e;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 2 : Contact        */
+.box2 {
+  background-color: #dbdddc;
+  height: 800px;
+  position: relative;
+  display: block;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ Box 2.1 : Get In Touch */
+.box2_1 {
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: auto 0;
+  top: 22%;
+}
+
+.h3 {
+  font-family: "DancingScript";
+  font-weight: bold;
+  font-size: 3rem;
+  text-decoration: underline #ca8779;
+  color: #ca8779;
+  margin: 0;
+  padding: 0;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Box 2.2 : Header */
+.box2_2 {
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: auto 0;
+  top: 30%;
+  height: auto;
+  width: auto;
+}
+
+.h4 {
+  font-family: "Orbitron";
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #43637e;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ Box 2.3 : Header 2 */
+.box2_3 {
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: auto 0;
+  top: 35%;
+}
+
+.h5 {
+  font-family: "Orbitron";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #1b3557;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ Box 2.4   Contact Button */
+.box2_4 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  display: block;
+  position: relative;
+  margin-top: 22%;
+}
+
+.myButton1 {
+  box-shadow: inset 0px 46px 0px -27px #e67a73;
+  background: linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+  background-color: #ca8779;
+  border-radius: 42px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 20px;
+  padding: 9px 18px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb675e;
+}
+
+.myButton1:hover {
+  background: linear-gradient(to bottom, #ca8779 5%, #ca8779 100%);
+  background-color: #ca8779;
+}
+
+.myButton1:active {
+  position: relative;
+  top: 1px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++   HR3  End of Box 2  */
+.hr4 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #43637e;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 3   */
+.box3 {
+  background-color: #817a88;
+  height: 200px;
+  position: relative;
+  display: block;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++ Relations : Box 3.1  */
+.box3_1 {
+  text-align: center;
+  height: 100px;
+  widht: auto;
+  margin: 0;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++ Relation Links : Box 3.1 */
+.rela1 {
+  display: inline-block;
+  position: relative;
+  margin: 3% 1%;
+  text-decoration: none;
+  color: #dbdddc;
+}
+
+.rela1:hover {
+  color: #ca8779;
+}
+
+.rela2 {
+  display: inline-block;
+  position: relative;
+  margin: 3% 1%;
+  text-decoration: none;
+  color: #dbdddc;
+}
+
+.rela2:hover {
+  color: #ca8779;
+}
+
+.rela3 {
+  display: inline-block;
+  position: relative;
+  margin: 3% 1%;
+  text-decoration: none;
+  color: #dbdddc;
+}
+
+.rela3:hover {
+  color: #ca8779;
+}
+/* ++++++++++++++++++++++++++ CONTACT HTML +++++++++++++++++++++++++++++++++++*/
+
+/* ++++++++++++++++++++++++++ HEADER +++++++++++++++++++++++++++++++++++++++++*/
+.contact_box {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ca8779;
+}
+
+.contact_header_box {
+  text-align: center;
+  display: block;
+  margin:50px 50px;
+}
+
+.contact_header_h6 {
+  margin:0px auto 0px auto;
+  display: block;
+  color:#dbdddc;
+  font-family: "DancingScript";
+  font-size: 3rem;
+  font-style: normal;
+}
+.contact_body_box {
+  text-align: center;
+  display: block;
+  margin:50px 50px;
+}
+.contact_p_1{
+  margin:0px auto 0px auto;
+  display: block;
+  color:#dbdddc;
+  font-family: "Orbitron";
+  font-size: 1.5rem;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+.contact_footer_box{
+  text-align: center;
+  display: block;
+  margin:50px 50px;
+}
+.myButton2 {
+  box-shadow: inset 0px 46px 0px -27px #e67a73;
+  background: linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+  background-color: #ca8779;
+  border-radius: 42px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 20px;
+  padding: 9px 18px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb675e;
+}
+
+.myButton2:hover {
+  background: linear-gradient(to bottom, #ca8779 5%, #ca8779 100%);
+  background-color: #ca8779;
+}
+
+.myButton2:active {
+  position: relative;
+  top: 1px;
+}
