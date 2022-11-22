@@ -15,7 +15,7 @@ body {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 0 */
 .box0 {
   height: auto;
-  width: auto;
+  width: 100%;
   text-align: center;
   background-color: #817a88;
   height: 800px;
