@@ -14,6 +14,8 @@ body {
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BOX 0 */
 .box0 {
+  height: auto;
+  width: auto;
   text-align: center;
   background-color: #817a88;
   height: 800px;
@@ -373,6 +375,8 @@ body {
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ Box 2.3 : Header 2 */
 .box2_3 {
+  height: auto;
+  width: auto;
   text-align: center;
   display: block;
   position: relative;
@@ -397,7 +401,8 @@ body {
   width: auto;
   display: block;
   position: relative;
-  margin-top: 22%;
+  top:350px;
+
 }
 
 .myButton1 {
